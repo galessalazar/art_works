@@ -1,1 +1,1 @@
-body{background:green}/*# sourceMappingURL=main.css.map */
+*{background:red}@font-face{font-family:"Koulen";src:url("../src/assets/fonts/koulen.ttf") format("truetype")}@layer base{*{margin:0 auto;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:"Arial",sans-serif;overflow-x:hidden;transition:all .3s}}.nav-left :first-child{font-family:"Koulen",sans-serif;font-size:25px}.nav-left :first-child span{color:#fff;-webkit-text-stroke:1px #000;-moz-text-stroke:1px #000;text-stroke:1px #000}/*# sourceMappingURL=main.css.map */
