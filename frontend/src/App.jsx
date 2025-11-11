@@ -7,7 +7,6 @@ const App = () => {
     <>
         <Header />
 
-    <h1>poo</h1>
     <Footer />
     </>
 
