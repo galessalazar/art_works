@@ -1,16 +1,33 @@
 import React from 'react'
-import Header from '../sass/components/Header'
-import Footer from '../sass/components/Footer'
+import { createBrowserRouter, RouterProvider } from 'react-router';
+import RootLayout from './layouts/RootLayout';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import NotFoundPage from './pages/NotFoundPage';
+
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      {
+        index: true,
+        element: <HomePage />
+      },
+      {
+        path: 'about', 
+        element: <AboutPage />
+      },
+      {
+        path: '*',
+        element: <NotFoundPage />
+      }
+    ]
+  }
+]);
 
 const App = () => {
-  return (
-    <>
-        <Header />
-
-    <Footer />
-    </>
-
-  )
+  return <RouterProvider router={router} />
 }
-
 export default App
