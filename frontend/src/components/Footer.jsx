@@ -26,17 +26,20 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <i class="fa-regular fa-phone"></i>
+              <i className="fa-regular fa-phone"></i>
               <a href="tel:2414838264">241.482.8264</a>
             </li>
             <li>
-              <i class="fa-regular fa-envelope"></i>
+              <i className="fa-regular fa-envelope"></i>
               <a href="mailto:artworks@gmail.com">artworks@gmail.com</a>
             </li>
             <li>
-              <i class="fa-regular fa-location-dot"></i>
-              <div>100 West River Ave</div>
-              <div>San Antonio, TX 78366</div>
+              <i className="fa-regular fa-location-dot"></i>
+
+              <span>
+                <div>100 West River Ave</div>
+                <div>San Antonio, TX 78366</div>
+              </span>
             </li>
           </ul>
         </div>

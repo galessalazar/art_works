@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react';
 import { Outlet } from 'react-router';
-import Header from '../components/Header'
+import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+
 const RootLayout = () => {
+  const [activeOption, setActiveOption] = useState('explore');
   return (
     <>
         <Header />
         <main>
-            <Outlet />
+            <Outlet context={{activeOption, setActiveOption}} />
         </main>
 
         <Footer />
