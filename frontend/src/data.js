@@ -44,4 +44,32 @@ const hours = [
     
 ]
 
-export { hours }
+const tickets = [
+    {
+        _id: '1',
+        type: 'Adult',
+        price: 18.0
+    },
+    {
+        _id: '2',
+        type: 'Child',
+        price: 5.0
+    },
+    {
+        _id: '3',
+        type: 'Senior',
+        price: 15.0
+    },
+    {
+        _id: '4',
+        type: 'Military',
+        price: 15.0
+    },
+    {
+        _id: '5',
+        type: 'Student',
+        price: 12.0
+    }
+]
+
+export { hours, tickets }
