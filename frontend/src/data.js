@@ -72,4 +72,49 @@ const tickets = [
     }
 ]
 
-export { hours, tickets }
+const events = [
+    {
+        _id: '1',
+        date: '2025-12-05',
+        time: '6:00pm',
+        title: 'Artist Network Brunch',
+        artist: 'Maria Rodgriguez'
+    },
+    {
+        _id: '2',
+        date: '2025-12-12',
+        time: '7:00pm',
+        title: 'Sculpture Garden Evening',
+        artist: 'Patricia Williams'
+    },
+    {
+        _id: '3',
+        date: '2025-12-08',
+        time: '2:00pm',
+        title: 'Artist Network Brunch',
+        artist: 'Maria Rodgriguez'
+    },
+    {
+        _id: '4',
+        date: '2025-12-18',
+        time: '5:30pm',
+        title: 'Photography & Light Exhibit',
+        artist: 'Sarah Johnson'
+    },
+    {
+        _id: '5',
+        date: '2025-12-15',
+        time: '3:00pm',
+        title: 'Modern Textile Art Showcase',
+        artist: 'David Kim'
+    },
+    {
+        _id: '6',
+        date: '2025-11-30',
+        time: '3:00pm',
+        title: 'Artworks Book Club Meeting',
+        artist: 'David Smith'
+    },
+]
+
+export { hours, tickets, events };

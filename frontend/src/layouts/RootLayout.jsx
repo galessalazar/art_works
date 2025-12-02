@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 
 const RootLayout = () => {
-  const [activeOption, setActiveOption] = useState('explore');
+  const [activeOption, setActiveOption] = useState('home');
   return (
     <>
         <Header />
